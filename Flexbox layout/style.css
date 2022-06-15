@@ -1,0 +1,125 @@
+
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.left-content {
+  background-color: hsl(31, 77%, 52%);
+  padding: 2em;
+  width: 45%;
+  height: 60%;
+  border: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  margin-top: 5%;
+}
+
+.mid-content {
+  background-color: hsl(184, 100%, 22%);
+  padding: 2em;
+  width: 45%;
+  height: 60%;
+  border: none;
+  margin-top: 5%;
+}
+
+.right-content {
+  background-color: hsl(179, 100%, 13%);
+  padding: 2em;
+  width: 45%;
+  height: 60%;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: 5%;
+}
+
+h1,
+button {
+  color: hsl(0, 0%, 95%);
+  
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  padding-bottom: 5em;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+  
+}
+
+.btn-left {
+    padding: 10px;
+    width: 55%;
+    border-radius: 20px;
+    border: none;
+    font-size: 10px;
+    color: hsl(31, 77%, 52%);
+    cursor: pointer;
+
+
+}
+
+.btn-mid {
+    padding: 10px;
+    width: 55%;
+    border-radius: 20px;
+    border: none;
+    font-size: 10px;
+    color: hsl(184, 100%, 22%);
+    cursor: pointer;
+
+}
+
+.btn-right {
+    padding: 10px;
+    width: 55%;
+    border-radius: 20px;
+    border: none;
+    font-size: 10px;
+    color: hsl(179, 100%, 13%);
+    cursor: pointer;
+}
+
+.sedans {
+      
+     padding-bottom: 1em;
+     font-family: 'Lexend Deca';
+
+     
+}
+
+.suv {
+    padding-bottom: 1em;
+   
+}
+
+.lux {
+    padding-bottom: 1em;
+}
+
+h1 {
+    padding-bottom: 0.7em;
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+     
+    
+}
